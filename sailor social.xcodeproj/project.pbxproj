@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		45DC98C41DC4594E001516A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC98C31DC4594E001516A4 /* AppDelegate.swift */; };
-		45DC98C61DC4594E001516A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC98C51DC4594E001516A4 /* ViewController.swift */; };
+		45DC98C61DC4594E001516A4 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC98C51DC4594E001516A4 /* SignInVC.swift */; };
 		45DC98C91DC4594E001516A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DC98C71DC4594E001516A4 /* Main.storyboard */; };
 		45DC98CB1DC4594E001516A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DC98CA1DC4594E001516A4 /* Assets.xcassets */; };
 		45DC98CE1DC4594E001516A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DC98CC1DC4594E001516A4 /* LaunchScreen.storyboard */; };
+		45DC98D61DC45A01001516A4 /* GoogleService-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45DC98D51DC45A01001516A4 /* GoogleService-info.plist */; };
+		CA743E942CDDA0D2E8F2890B /* Pods_sailor_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C2CDEAB63684BD36C8CE93 /* Pods_sailor_social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27F6BC1A481463A97317D297 /* Pods-sailor social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sailor social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sailor social/Pods-sailor social.debug.xcconfig"; sourceTree = "<group>"; };
 		45DC98C01DC4594E001516A4 /* sailor social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sailor social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45DC98C31DC4594E001516A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45DC98C51DC4594E001516A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45DC98C51DC4594E001516A4 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		45DC98C81DC4594E001516A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45DC98CA1DC4594E001516A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45DC98CD1DC4594E001516A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45DC98CF1DC4594E001516A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DC98D51DC45A01001516A4 /* GoogleService-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-info.plist"; path = "../../../Downloads/GoogleService-info.plist"; sourceTree = "<group>"; };
+		B9C2CDEAB63684BD36C8CE93 /* Pods_sailor_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sailor_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4F41E730CA7C3AA7D147A8 /* Pods-sailor social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sailor social.release.xcconfig"; path = "Pods/Target Support Files/Pods-sailor social/Pods-sailor social.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA743E942CDDA0D2E8F2890B /* Pods_sailor_social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BD8FAA3F9F8CE7DD4E78577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9C2CDEAB63684BD36C8CE93 /* Pods_sailor_social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45AE62621DC4671E0078E582 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		45AE62631DC467370078E582 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		45AE62641DC4673E0078E582 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45DC98C51DC4594E001516A4 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		45DC98B71DC4594E001516A4 = {
 			isa = PBXGroup;
 			children = (
 				45DC98C21DC4594E001516A4 /* sailor social */,
 				45DC98C11DC4594E001516A4 /* Products */,
+				BA244E3EACF55F23EBB54700 /* Pods */,
+				0BD8FAA3F9F8CE7DD4E78577 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,26 @@
 		45DC98C21DC4594E001516A4 /* sailor social */ = {
 			isa = PBXGroup;
 			children = (
+				45AE62621DC4671E0078E582 /* Model */,
+				45AE62641DC4673E0078E582 /* Controller */,
+				45AE62631DC467370078E582 /* View */,
 				45DC98C31DC4594E001516A4 /* AppDelegate.swift */,
-				45DC98C51DC4594E001516A4 /* ViewController.swift */,
 				45DC98C71DC4594E001516A4 /* Main.storyboard */,
 				45DC98CA1DC4594E001516A4 /* Assets.xcassets */,
 				45DC98CC1DC4594E001516A4 /* LaunchScreen.storyboard */,
 				45DC98CF1DC4594E001516A4 /* Info.plist */,
+				45DC98D51DC45A01001516A4 /* GoogleService-info.plist */,
 			);
 			path = "sailor social";
+			sourceTree = "<group>";
+		};
+		BA244E3EACF55F23EBB54700 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27F6BC1A481463A97317D297 /* Pods-sailor social.debug.xcconfig */,
+				BA4F41E730CA7C3AA7D147A8 /* Pods-sailor social.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45DC98D21DC4594E001516A4 /* Build configuration list for PBXNativeTarget "sailor social" */;
 			buildPhases = (
+				CF0AA7454C184439D01970E6 /* [CP] Check Pods Manifest.lock */,
 				45DC98BC1DC4594E001516A4 /* Sources */,
 				45DC98BD1DC4594E001516A4 /* Frameworks */,
 				45DC98BE1DC4594E001516A4 /* Resources */,
+				451A73C624A04AC444BDB22B /* [CP] Embed Pods Frameworks */,
+				56E6154FC1C0462FC74BF6EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45DC98CE1DC4594E001516A4 /* LaunchScreen.storyboard in Resources */,
+				45DC98D61DC45A01001516A4 /* GoogleService-info.plist in Resources */,
 				45DC98CB1DC4594E001516A4 /* Assets.xcassets in Resources */,
 				45DC98C91DC4594E001516A4 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +186,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		451A73C624A04AC444BDB22B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sailor social/Pods-sailor social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56E6154FC1C0462FC74BF6EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sailor social/Pods-sailor social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF0AA7454C184439D01970E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45DC98BC1DC4594E001516A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45DC98C61DC4594E001516A4 /* ViewController.swift in Sources */,
+				45DC98C61DC4594E001516A4 /* SignInVC.swift in Sources */,
 				45DC98C41DC4594E001516A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +361,7 @@
 		};
 		45DC98D31DC4594E001516A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F6BC1A481463A97317D297 /* Pods-sailor social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "sailor social/Info.plist";
@@ -270,6 +374,7 @@
 		};
 		45DC98D41DC4594E001516A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4F41E730CA7C3AA7D147A8 /* Pods-sailor social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "sailor social/Info.plist";
@@ -299,6 +404,7 @@
 				45DC98D41DC4594E001516A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

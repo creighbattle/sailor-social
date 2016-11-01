@@ -12,7 +12,7 @@
 		45DC98C91DC4594E001516A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DC98C71DC4594E001516A4 /* Main.storyboard */; };
 		45DC98CB1DC4594E001516A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DC98CA1DC4594E001516A4 /* Assets.xcassets */; };
 		45DC98CE1DC4594E001516A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DC98CC1DC4594E001516A4 /* LaunchScreen.storyboard */; };
-		45DC98D61DC45A01001516A4 /* GoogleService-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45DC98D51DC45A01001516A4 /* GoogleService-info.plist */; };
+		45DC98D61DC45A01001516A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45DC98D51DC45A01001516A4 /* GoogleService-Info.plist */; };
 		CA743E942CDDA0D2E8F2890B /* Pods_sailor_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C2CDEAB63684BD36C8CE93 /* Pods_sailor_social.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 		45DC98CA1DC4594E001516A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45DC98CD1DC4594E001516A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45DC98CF1DC4594E001516A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45DC98D51DC45A01001516A4 /* GoogleService-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-info.plist"; path = "../../../Downloads/GoogleService-info.plist"; sourceTree = "<group>"; };
+		45DC98D51DC45A01001516A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B9C2CDEAB63684BD36C8CE93 /* Pods_sailor_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sailor_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4F41E730CA7C3AA7D147A8 /* Pods-sailor social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sailor social.release.xcconfig"; path = "Pods/Target Support Files/Pods-sailor social/Pods-sailor social.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +101,7 @@
 				45DC98CA1DC4594E001516A4 /* Assets.xcassets */,
 				45DC98CC1DC4594E001516A4 /* LaunchScreen.storyboard */,
 				45DC98CF1DC4594E001516A4 /* Info.plist */,
-				45DC98D51DC45A01001516A4 /* GoogleService-info.plist */,
+				45DC98D51DC45A01001516A4 /* GoogleService-Info.plist */,
 			);
 			path = "sailor social";
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45DC98CE1DC4594E001516A4 /* LaunchScreen.storyboard in Resources */,
-				45DC98D61DC45A01001516A4 /* GoogleService-info.plist in Resources */,
+				45DC98D61DC45A01001516A4 /* GoogleService-Info.plist in Resources */,
 				45DC98CB1DC4594E001516A4 /* Assets.xcassets in Resources */,
 				45DC98C91DC4594E001516A4 /* Main.storyboard in Resources */,
 			);
